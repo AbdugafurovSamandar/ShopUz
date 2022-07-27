@@ -1,0 +1,28 @@
+POST http://localhost:8080/admin/create_operator
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTgzOTcwMTgsImV4cCI6MTY1ODQwMDYxOCwiaXNzIjoiWW91dHViZSBwcm9qZWN0IiwiaWQiOjV9.-NJS_0a_Z6tR8C1vdvhnfnjH_w1toF_i5M_zNJUuWic
+
+{
+  "name": "Asilbek",
+  "surname": "Maxmudov",
+  "phone": "+998907880722",
+  "password": "123",
+  "birthDate": "2006-05-20",
+  "role": "ROLE_OPERATOR",
+  "gender": "MALE"
+}
+
+###
+
+GET localhost:8080/admin/getlist?page=0&size=5
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTgzOTk3MzIsImV4cCI6MTY1ODQwMzMzMiwiaXNzIjoiWW91dHViZSBwcm9qZWN0IiwiaWQiOjd9.ndzN0lKtyg7YzP6NPPAlsXMMuDLtzjODvJ4HB_ZaBXM
+
+
+###
+DELETE localhost:8080/admin/delete/10
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTg1NjU3NjMsImV4cCI6MTY1ODU2OTM2MywiaXNzIjoiWW91dHViZSBwcm9qZWN0IiwiaWQiOjd9.f2CboBVBe0jWune_E6DWvvR8Y1Z4m5j89TxfIOp4TAI
+
+###
+DELETE http://localhost:8080/admin/change_status/10
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTg1NjU3NjMsImV4cCI6MTY1ODU2OTM2MywiaXNzIjoiWW91dHViZSBwcm9qZWN0IiwiaWQiOjd9.f2CboBVBe0jWune_E6DWvvR8Y1Z4m5j89TxfIOp4TAI

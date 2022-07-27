@@ -1,0 +1,8 @@
+POST http://localhost:8080/region/adm/create
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTg1NjU3NjMsImV4cCI6MTY1ODU2OTM2MywiaXNzIjoiWW91dHViZSBwcm9qZWN0IiwiaWQiOjd9.f2CboBVBe0jWune_E6DWvvR8Y1Z4m5j89TxfIOp4TAI
+
+{
+  "key": "toshkent",
+  "name": "Toshkent shahri"
+}

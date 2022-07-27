@@ -1,0 +1,9 @@
+###create
+POST http://localhost:8080/attach/create
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTg5MTAzOTEsImV4cCI6MTY1ODkxMzk5MSwiaXNzIjoiWW91dHViZSBwcm9qZWN0IiwiaWQiOjd9.cnDrqfSNrcJSLs3LYn2jYiYHVTKDIWLTscRT4q5P6Io
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="file"; filename="asilbek.jpg"
+
+< C:\Users\samandar\Downloads\Telegram Desktop\asilbek.jpg

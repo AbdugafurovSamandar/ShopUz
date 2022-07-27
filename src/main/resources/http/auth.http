@@ -1,0 +1,32 @@
+POST localhost:8080/auth/register
+Content-Type: application/json
+
+{
+  "name": "Asilbek",
+  "surname": "Maxmudov",
+  "phone": "+998970916171",
+  "password": "1111",
+  "birthDate": "2006-05-20",
+  "gender": "MALE"
+}
+
+###
+GET localhost:8080/auth/verification
+Content-Type: application/json
+
+{
+  "phone": "+998970916171",
+  "code": "42005"
+}
+
+
+###
+POST http://localhost:8080/auth/login
+Content-Type: application/json
+
+{
+  "number": "+998907880223",
+  "password": "123"
+}
+
+

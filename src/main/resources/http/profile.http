@@ -1,0 +1,36 @@
+POST http://localhost:8080/admin/create_operator
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTgzOTcwMTgsImV4cCI6MTY1ODQwMDYxOCwiaXNzIjoiWW91dHViZSBwcm9qZWN0IiwiaWQiOjV9.-NJS_0a_Z6tR8C1vdvhnfnjH_w1toF_i5M_zNJUuWic
+
+{
+  "name": "Asilbek",
+  "surname": "Maxmudov",
+  "phone": "+998907880721",
+  "password": "3333",
+  "birthDate": "2006-05-20",
+  "role": "ROLE_OPERATOR",
+  "gender": "MALE"
+}
+
+###
+
+POST http://localhost:8080/profile/update_detail
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTg0OTU1NDMsImV4cCI6MTY1ODQ5OTE0MywiaXNzIjoiWW91dHViZSBwcm9qZWN0IiwiaWQiOjh9.T9HDkiLDergMtVPkH9f4ziEKwhWeXdbClB7FOHa0szQ
+
+{
+  "name": "Asi",
+  "surname": "Valiyev",
+  "birthDate": "2000-03-12"
+}
+
+
+###
+POST http://localhost:8080/profile/change_pass
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTg1NjQ2MzQsImV4cCI6MTY1ODU2ODIzNCwiaXNzIjoiWW91dHViZSBwcm9qZWN0IiwiaWQiOjEwfQ.k2vyyEKAZL22bd8sfSGtjWxAMtdrvtMcP4zqg3Tr7LE
+
+{
+  "oldPassword": "1111",
+  "newPassword": "1234"
+}
